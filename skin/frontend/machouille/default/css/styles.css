@@ -912,7 +912,7 @@ body:not(.customer-account) .block:first-child .block-title {
 .cart-table .product-cart-actions .button,
 #co-shipping-method-form .buttons-set .button,
 .footer .button {
-  background: #3399cc;
+  background: #F9429E;
   display: inline-block;
   padding: 7px 15px;
   border: 0;
@@ -930,7 +930,7 @@ body:not(.customer-account) .block:first-child .block-title {
 .cart-table .product-cart-actions .button:hover,
 #co-shipping-method-form .buttons-set .button:hover,
 .footer .button:hover {
-  background: #2e8ab8;
+  background: #C154C1;
   cursor: pointer;
 }
 .button:active,
