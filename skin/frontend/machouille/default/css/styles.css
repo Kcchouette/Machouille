@@ -3683,6 +3683,7 @@ a.skip-link {
     width: auto;
     padding: 0 10px;
     text-transform: uppercase;
+    color: #F9429E;
   }
 
   #header-account.skip-active {
