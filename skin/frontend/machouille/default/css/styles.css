@@ -2575,6 +2575,7 @@ span.required em {
  */
 select {
   font-size: 14px;
+  background: #FFBF00;
 }
 
 select + select {
