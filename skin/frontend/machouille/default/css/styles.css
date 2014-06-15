@@ -2617,7 +2617,7 @@ textarea {
   font-size: 15px;
 }
 .input-text:focus {
-  border: 1px solid #3399cc;
+  border: 1px solid #FFBF00;
 }
 
 .input-text.validation-failed {
