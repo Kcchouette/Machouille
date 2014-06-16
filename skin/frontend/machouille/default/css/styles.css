@@ -629,6 +629,11 @@ h6, .h6 {
   margin-bottom: 10px;
 }
 
+.store-switcher {
+  margin: 30px;
+  float: right;
+}
+
 /* -------------------------------------------- *
  * Page Titles
  */
