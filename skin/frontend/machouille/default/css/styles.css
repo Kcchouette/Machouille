@@ -631,7 +631,7 @@ h6, .h6 {
 
 .store-switcher {
   margin: 30px;
-  float: right;
+  text-align: right;
 }
 
 /* -------------------------------------------- *
