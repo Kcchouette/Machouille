@@ -92,11 +92,12 @@ function toggleCal(id) {
     <table cellspacing="0">
         <tr>
             <td><h3 class="head-dashboard"><?php echo $this->__('Dashboard') ?></h3></td>
+            <?php echo $this->getChildHtml('store_switcher') ?>
         </tr>
     </table>
 </div>
 <div class="dashboard-container">
-    <?php echo $this->getChildHtml('store_switcher') ?>
+/*    <?php echo $this->getChildHtml('store_switcher') ?> */
     <table cellspacing="25" width="100%">
         <tr>
             <td><?php echo $this->getChildHtml('sales') ?>
