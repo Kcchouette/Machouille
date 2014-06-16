@@ -50,7 +50,6 @@
         <?php // In order for the language switcher to display next to logo on smaller viewports, it will be moved here.
               // See app.js for details ?>
         <div class="store-language-container"></div>
-	<?php echo $this->getChildHtml('store_switcher') ?>
 
         <!-- Skip Links -->
 
@@ -96,6 +95,9 @@
         <div id="header-account" class="skip-content">
             <?php echo $this->getChildHtml('topLinks') ?>
         </div>
+	
+	<!-- Store -->
+	<?php echo $this->getChildHtml('store_switcher') ?>
 
         <!-- Cart -->
 
