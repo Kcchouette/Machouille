@@ -35,7 +35,23 @@
         </div>
 
         <?php echo $this->getChildHtml('currency_switcher') ?>
-
+	
+	<p class="welcome-msg">
+	
+        <?php /* button to go on a store */ 
+        	if(strstr($_SERVER['REQUEST_URI'], 'machouille_pro')) {
+        		$var_url = '../index.php';
+        		$var_txt = 'Machouille private sale';
+        	}
+        	else {
+        		$var_url = 'machouille_pro/index.php';
+        		$var_txt = 'Machouille business sale';
+        	}
+        	echo '<a href=' . $var_url . '>' . $var_txt . '</a>';
+        ?>
+        	<?php echo Mage::getBaseUrl('m_pro'); ?></p>
+        
+        
         <p class="welcome-msg"><?php echo $this->getChildHtml('welcome') ?> <?php echo $this->getAdditionalHtml() ?></p>
     </div>
 </div>
