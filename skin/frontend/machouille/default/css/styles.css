@@ -634,6 +634,11 @@ h6, .h6 {
   text-align: right;
 }
 
+/* hide the compare link */
+a.link-compare {
+  display: none;
+}
+
 /* -------------------------------------------- *
  * Page Titles
  */
