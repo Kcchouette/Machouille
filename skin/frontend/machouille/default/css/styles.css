@@ -634,11 +634,6 @@ h6, .h6 {
   text-align: right;
 }
 
-/* hide the compare link */
-a.link-compare {
-  display: none;
-}
-
 /* -------------------------------------------- *
  * Page Titles
  */
@@ -9721,4 +9716,9 @@ div.calendar table td.button {
   background: inherit;
   color: inherit;
   text-transform: none;
+}
+
+/* hide the compare link */
+a.link-compare {
+  display: none;
 }
