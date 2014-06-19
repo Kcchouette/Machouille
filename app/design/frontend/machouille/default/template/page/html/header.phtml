@@ -40,7 +40,7 @@
         <p class="welcome-msg">
         	<p class="store"> <?php /* button to go on a store */ 
         		if(strstr($_SERVER['REQUEST_URI'], 'machouille_pro')) {
-        			$var_url = '$var_url = Mage::getBaseUrl('web') . 'index.php';
+        			$var_url = Mage::getBaseUrl('web') . 'index.php';
         			$var_txt = 'Machouille private sale';
         		}
         		else {
