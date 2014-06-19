@@ -38,6 +38,7 @@
 
 
         <p class="welcome-msg">
+        	<p class="message"> <?php echo $this->getChildHtml('welcome') ?> <?php echo $this->getAdditionalHtml() ?></p>
         	<p class="store"> <?php /* button to go on a store */ 
         		if(strstr($_SERVER['REQUEST_URI'], 'machouille_pro')) {
         			$var_url = Mage::getBaseUrl('web') . 'index.php';
@@ -49,7 +50,7 @@
         		}
         		echo '<a href=' . $var_url . '>' . $var_txt . '</a>';
         		?></p>
-        	<p class="message"> <?php echo $this->getChildHtml('welcome') ?> <?php echo $this->getAdditionalHtml() ?></p></p>
+        </p>
     </div>
 </div>
 
