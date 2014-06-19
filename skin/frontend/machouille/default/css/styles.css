@@ -3519,6 +3519,7 @@ a.skip-link {
   .nav-primary li.level0,
   .nav-primary a.level0 {
     display: inline-block;
+    font-size: 20px;
   }
   .nav-primary li:last-child > a {
     border-bottom: none;
@@ -3526,6 +3527,7 @@ a.skip-link {
   .nav-primary a:hover,
   .nav-primary li:hover > a {
     color: #F9429E;
+    font-size: 20px;
   }
   .nav-primary .menu-active,
   .nav-primary li.level0:hover {
