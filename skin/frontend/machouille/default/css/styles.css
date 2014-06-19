@@ -9747,3 +9747,15 @@ p.store a {
    border-left: 1px solid #CCCCCC;
 }
 
+p.store a {
+	background-color:#f9f9f9;
+    border:1px solid #dcdcdc;
+    padding: 5px;
+    color:#666666;
+	text-decoration:none;
+	text-align:center;
+    
+}
+p.store a:hover {
+	background-color:#e9e9e9;
+}
