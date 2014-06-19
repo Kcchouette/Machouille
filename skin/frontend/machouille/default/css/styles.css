@@ -9722,3 +9722,12 @@ div.calendar table td.button {
 a.link-compare {
   display: none;
 }
+
+/*header*/
+p.message  {
+    float: right;
+}
+
+p.store {
+    float: left;
+}
