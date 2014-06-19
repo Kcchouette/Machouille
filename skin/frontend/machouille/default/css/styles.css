@@ -9734,3 +9734,8 @@ p.message  {
 p.store {
     float: left;
 }
+
+p.store a {
+    color: red;
+}
+
